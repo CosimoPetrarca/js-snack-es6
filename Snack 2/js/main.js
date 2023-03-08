@@ -53,7 +53,7 @@ const studentiMeritevoli = studenti.filter((studente) => {
     return studente.voti > 70;
 });
 
-for (let i = 0; i < studenti.length; i++) {
+for (let i = 0; i < studentiMeritevoli.length; i++) {
     console.log(studentiMeritevoli[i]);
 }
 
@@ -62,6 +62,7 @@ const studentiCombo = studenti.filter((studente) => {
     return studente.voti > 70 && studente.id > 120;
 });
 
-for (let i = 0; i < studenti.length; i++) {
+for (let i = 0; i < studentiCombo.length; i++) {
     console.log(studentiCombo[i]);
+    
 }

@@ -38,3 +38,9 @@ const studenti = [
         voti: 84
     }
 ];
+
+//creo una nuova lista con i nomi in maiuscolo (toUpperCase)
+const nomiMaiuscolo = studenti.map((studente) => {
+    return studente.nome.toUpperCase();
+});
+console.log(nomiMaiuscolo);

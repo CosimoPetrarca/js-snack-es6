@@ -43,4 +43,25 @@ const studenti = [
 const nomiMaiuscolo = studenti.map((studente) => {
     return studente.nome.toUpperCase();
 });
-console.log(nomiMaiuscolo);
+
+for (let i = 0; i < studenti.length; i++) {
+    console.log(nomiMaiuscolo[i]);
+}
+
+//creo una lista con gli studenti con i voti superiori a 70
+const studentiMeritevoli = studenti.filter((studente) => {
+    return studente.voti > 70;
+});
+
+for (let i = 0; i < studenti.length; i++) {
+    console.log(studentiMeritevoli[i]);
+}
+
+//creo una lista con gli studenti con i voti superiori a 70 ed id superiore a 120
+const studentiCombo = studenti.filter((studente) => {
+    return studente.voti > 70 && studente.id > 120;
+});
+
+for (let i = 0; i < studenti.length; i++) {
+    console.log(studentiCombo[i]);
+}

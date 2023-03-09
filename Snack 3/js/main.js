@@ -33,3 +33,10 @@ for (let i = 1; i < biciclette.length; i++) {
   }
 }
 console.log(biciLeggera);
+
+//destructuring per estrarre le proprietà "nome" e "peso"
+const {nome, peso} = biciLeggera;
+
+//template literal
+console.log(`La bici più leggera è ${nome} che pesa ${peso} kg.`);
+

@@ -45,3 +45,8 @@ for (let i = 0; i < squadre.length; i++) {
     squadre[i].falli = Math.floor(Math.random() * 200);
 }
 console.log(squadre);
+
+//creo un array con solo i nomi e falli
+const squadreFallose = squadre.map(({nome, falli}) => ({nome, falli}));
+console.log(squadreFallose);
+

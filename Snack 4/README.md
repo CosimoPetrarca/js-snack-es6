@@ -6,4 +6,4 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 - creo un array di oggetti di squadre di calcio (nome, punti fatti, e falli subiti) settandoli a 0;
 - con un ciclo for genero numeri randomici per le proprietà punti e falli;
 - usando la destrutturazione mi creo un nuovo array con solo i nomi e falli;
-- stampo in cosole;
+- stampo in console;
